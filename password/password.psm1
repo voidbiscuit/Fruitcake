@@ -1,0 +1,1 @@
+function password($n=0){0..$n|ForEach-Object{$s+=[char](33..126|Get-Random)};$s}
